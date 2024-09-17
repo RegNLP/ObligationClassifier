@@ -1,15 +1,8 @@
 
 # Obligation Classificiation Data
 
-This dataset was built using the Abu Dhabi Global Market (ADGM) Financial Regulations, leveraging both Retrieval-Augmented Generation (RAG) and few-shot learning with the `gpt-4-turbo-1106-246` model.
+This dataset was built using the Abu Dhabi Global Market (ADGM) Financial Regulations, leveraging few-shot learning with the `gpt-4-turbo-1106-246` model.
 
-## Method:
-### 1. RAG for Sentence Generation: 
-The model retrieved relevant information from ADGM regulatory documents and generated obligation-related sentences.
-### 2. Few-Shot Learning: 
-A few labeled examples of obligations and non-obligations were provided to guide the model in accurately generating sentences.
-### 3. Validation via Chat Completion: 
-The generated sentences were validated using the model's chat completion function to ensure correct labeling of obligations (True) and non-obligations (False).This process ensured the creation of an accurate dataset aligned with the regulatory guidelines.
 
 # Obligation Classification using LegalBERT
 
