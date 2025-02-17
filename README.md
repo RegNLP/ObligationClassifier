@@ -1,7 +1,7 @@
 
 # Obligation Classificiation Data
 
-This dataset was built using the Abu Dhabi Global Market (ADGM) Financial Regulations, leveraging few-shot learning with the `gpt-4-turbo-1106-246` model.
+This dataset was built using the Abu Dhabi Global Market (ADGM) Financial Regulations, leveraging zero-shot learning with the `gpt-4-turbo-1106-246` model.
 
 
 # Obligation Classification using LegalBERT
